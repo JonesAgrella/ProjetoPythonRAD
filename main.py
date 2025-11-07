@@ -214,7 +214,7 @@ for t in ["Manhã", "Tarde", "Noite"]:
 ttk.Label(tab_form, text="Presença:").grid(row=6, column=0, sticky="w", padx=(0,8), pady=4)
 pres = ttk.Frame(tab_form)
 pres.grid(row=6, column=1, columnspan=2, sticky="w")
-for p in ["Presente", "Faltou", "Remoto"]:
+for p in ["Presencial", "Remoto"]:
     ttk.Radiobutton(pres, text=p, value=p, variable=presenca_var).pack(side="left", padx=(0,8))
 
 # linhas 7–11: Perguntas (Likert 1–5)
