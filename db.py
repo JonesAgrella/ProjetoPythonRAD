@@ -50,7 +50,7 @@ def fetch_all():
     con.close()
     return rows
 
-def count_rows():
+def count_rows():       #num resgistro
     con = sqlite3.connect(DB_PATH)
     cur = con.cursor()
     cur.execute("SELECT COUNT(*) FROM respostas")
