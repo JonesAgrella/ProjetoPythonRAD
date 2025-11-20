@@ -142,7 +142,7 @@ class FormTab:
         self.email_var.set("")
         self.curso_var.set("")
         self.turno_var.set("Manhã")
-        self.presenca_var.set("Presente")
+        self.presenca_var.set("Presencial")
         for v in [self.sat_geral_var, self.sat_clareza_var, self.sat_infra_var, 
                  self.sat_material_var, self.sat_suporte_var]:
             v.set(3)

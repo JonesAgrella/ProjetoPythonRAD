@@ -12,7 +12,7 @@ def main():
     root.geometry("980x620")
 
     # Apply theme
-    apply_azure_theme(root, "azure.tcl", dark=True)
+    apply_azure_theme(root, dark=True)
 
     # Create notebook for tabs
     nb = ttk.Notebook(root)
